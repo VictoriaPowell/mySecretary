@@ -1,0 +1,22 @@
+<html>
+<body>
+  <h1>Win notification!</h1>
+  <p>Dear ${data.customerName},</p>
+  <p>
+     Thank you for participating in our super-fabulous new-customer competition!
+     You're one of the lucky winners!
+  </p>
+  <p>
+    We hereby present you with your coupon worth
+    <strong>${data.couponValue}</strong>,
+    to make your next purchase at Virtually-4-Free shop even cheaper.
+    To redeem your coupon, simply enter the following coupon code during checkout:
+    <div class="coupon">${data.couponCode}<div>
+  </p>
+  <p>
+    Or, start your next shopping spree from 
+    <a href="https://virtually4free.example.net/coupon?code=${data.couponCode}">this link</a>,
+    and have the coupon code conveniently pre-filled!
+  </p>
+</body>
+</html>
